@@ -12,6 +12,10 @@
         ol li, ul{  
             color: green;
         }
+        a::before{
+            content: "\2012 Click Here: ";
+            font-weight: bold;
+        }
     </style>
 </head>
 <body>
@@ -23,9 +27,9 @@
         <li>Tres</li>
     </ol>
     <ul>
-        <li>Primero</li>
-        <li>Segundo</li>
-        <li>Tercero</li>
+        <li><a href="#">Primero</a></li>
+        <li><a href="#">Segundo</a></li>
+        <li><a href="#">Tercero</a></li>
     </ul>
 </body>
 </html>
